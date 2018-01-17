@@ -1,4 +1,4 @@
-# IPProxy 
+# IPProxy
 
 一个从各大网站提取代理IP的自动化工具。
 
@@ -20,7 +20,7 @@
 使用 pyvenv 新建一个虚拟环境，只需要在 shell 终端执行：
 
     $ python3 -m venv ipproxy
-    $ source ipproxy/bin/activate 
+    $ source ipproxy/bin/activate
     (ipproxy) $ pip install -r requirements.txt
 
 如果遇到 pypi 下载缓慢，可以使用 douban pypi:
@@ -31,7 +31,7 @@
 
 运行下面这个脚本，就可以自动地从各大代理IP网站提取大量ip：
 
-    (ipproxy)$ python crawl.py 
+    (ipproxy)$ python crawl.py
 
 耐心等待，脚本执行完成后，会将结果以 csv 的格式保存在 `data` 目录中:
 
@@ -56,7 +56,7 @@ ip,port,anonymous,info
 对于 `匿名程度` 这一列, 数字 0~3 分别代表:
 
 * 0: 未知
-* 1: 透明 
+* 1: 透明
 * 2: 普通匿名
 * 3: 高度匿名
 
@@ -117,8 +117,7 @@ ip,port,anonymous,info,speed
 
 ## 数据源
 
-* [http://www.cz88.net/proxy]()
-* [http://www.kuaidaili.com]()
-* [http://www.xicidaili.com]()
-* [http://cn-proxy.com]()
-* [http://www.66ip.cn]()
+* [http://www.cz88.net/proxy](http://www.cz88.net/proxy)
+* [https://www.kuaidaili.com/](https://www.kuaidaili.com/)
+* [http://www.xicidaili.com](http://www.xicidaili.com)
+* [http://www.66ip.cn](http://www.66ip.cn)
