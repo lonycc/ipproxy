@@ -4,7 +4,7 @@ import sys
 import logging
 import os.path
 import IP  # 需要安装17MonIP
-from lib.source import CZ88, KuaiDaili, XiciDaili, IP66, IP66API, CNProxy
+from lib.source import CZ88, KuaiDaili, XiciDaili, IP66, IP66API
 
 logging.basicConfig(format="%(asctime)s - %(levelname)s - %(message)s", level=logging.INFO)
 root = os.path.dirname(os.path.abspath(__file__))
@@ -17,7 +17,7 @@ def main():
 
 def get_proxyip():
     ip_pool = set()
-    for s in [CZ88, KuaiDaili, XiciDaili, IP66, IP66API, CNProxy]:
+    for s in [CZ88, KuaiDaili, XiciDaili, IP66, IP66API]:
         instance = s()
         ips = instance.get()
         ip_pool.update(ips)
