@@ -117,7 +117,21 @@ ip,port,anonymous,info,speed
 
 ## 数据源
 
-* [http://www.cz88.net/proxy](http://www.cz88.net/proxy)
-* [https://www.kuaidaili.com/](https://www.kuaidaili.com/)
-* [http://www.xicidaili.com](http://www.xicidaili.com)
-* [http://www.66ip.cn](http://www.66ip.cn)
+`https://www.awesomes.cn/`
+
+`http://www.cz88.net/proxy`
+
+`http://www.xicidaili.com`
+
+`http://m.66ip.cn`
+
+`http://www.mayidaili.com/free`
+
+`http://www.mimiip.com/`
+
+`http://www.ip181.com/`
+
+`https://proxy.coderbusy.com/`
+
+`https://www.kuaidaili.com/`
+
